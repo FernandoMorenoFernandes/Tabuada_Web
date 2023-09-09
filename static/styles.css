@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remova as margens padrão do corpo da página */
+    padding: 0; /* Remova o preenchimento padrão do corpo da página */
+    background-color: #f0f0f0; /* Adicione uma cor de fundo para a página */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+table {
+    width: 300px;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
